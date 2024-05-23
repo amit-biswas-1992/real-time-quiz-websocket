@@ -6,7 +6,7 @@ export class IoManager{
     private static io: Server;
     private static instance: IoManager;
 
-    public static getIo(io: Server) {
+    public static getIo() {
         if(!this.getIo){
             const io = new Server(server);
             this.io = io;
